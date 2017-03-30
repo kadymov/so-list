@@ -1,0 +1,17 @@
+{
+  "name": "so-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app/main.js -o public/bundle.js",
+    "watch": "watchify app/main.js -o public/bundle.js --debug --verbose"
+  },
+  "author": "Kadymov Aleksandr (alkadymov@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "watchify": "^3.9.0"
+  }
+}
